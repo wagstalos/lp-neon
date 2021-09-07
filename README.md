@@ -16,7 +16,7 @@ In this project I'm developing a landing page for the Codeboost by Insany course
 <img src="https://img.shields.io/static/v1?label=Status&message=Progess&color=F1C40F&style=for-the-badge&logo="/>
 </h1>
 
-   <img src="https://github.com/wagstalos/lp-neon/blob/master/img/mockup-02.png" alt="">
+   <img align="center" src="https://github.com/wagstalos/lp-neon/blob/master/img/mockup-02.png" alt="">
 
 
 
