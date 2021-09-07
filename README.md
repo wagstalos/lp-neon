@@ -1,11 +1,12 @@
 
 <h1 align="center">Landing Page neon (By insany)</h1>
 
-<h1 align="center">
+<h2 align="center">
     <a href="https://wpsgames.com.br/sites/cripto/">🔗 link  do projeto {
 project link}</a>
-</h1>
+</h2>
 
+<h1 align="center">Landing Page neon (By insany)</h1>
 ## Descrição do Projeto {Project description}
 
 <p align="center"> Neste projeto eu estou desnevolvendo uma landing page para o curso Codeboost by Insany <br> {
