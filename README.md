@@ -19,7 +19,9 @@ In this project I'm developing a landing page for the Codeboost by Insany course
 
 <div  align="center" >
        <img src="https://github.com/wagstalos/lp-neon/blob/master/img/mockup-02.png" alt="">
-    ### Features
+</div>
+
+### Features
 
 - [X] HTML5
 - [X] CSS
@@ -34,9 +36,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS]
 - [SASS](https://sass-lang.com/)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-</div>
-
-
 
 
 
