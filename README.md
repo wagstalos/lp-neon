@@ -6,8 +6,8 @@
 project link}</a>
 </h2>
 
-<h1 align="center">Landing Page neon (By insany)</h1>
-## Descrição do Projeto {Project description}
+<h1 align="center">## Descrição do Projeto {Project description}</h1>
+
 
 <p align="center"> Neste projeto eu estou desnevolvendo uma landing page para o curso Codeboost by Insany <br> {
 In this project I'm developing a landing page for the Codeboost by Insany course}</p>
