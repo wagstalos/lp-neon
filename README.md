@@ -8,7 +8,7 @@ project link}</a>
 
 ## Descrição do Projeto {Project description}
 
-<p align="center"> Neste projeto eu estou desnevolvendo uma landing page para o curso Codeboost by Insany {
+<p align="center"> Neste projeto eu estou desnevolvendo uma landing page para o curso Codeboost by Insany <br> {
 In this project I'm developing a landing page for the Codeboost by Insany course}</p>
 
 <h1 align="center">
@@ -16,7 +16,10 @@ In this project I'm developing a landing page for the Codeboost by Insany course
 <img src="https://img.shields.io/static/v1?label=Status&message=Progess&color=F1C40F&style=for-the-badge&logo="/>
 </h1>
 
-   <img align="center" src="https://github.com/wagstalos/lp-neon/blob/master/img/mockup-02.png" alt="">
+<div  align="center" >
+       <img src="https://github.com/wagstalos/lp-neon/blob/master/img/mockup-02.png" alt="">
+</div>
+
 
 
 
