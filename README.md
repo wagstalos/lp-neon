@@ -30,7 +30,7 @@ In this project I'm developing a landing page for the Codeboost by Insany course
 
 
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes tecnologias foram usadas na construção do projeto <br> {The following technologies were used in the construction of the project:}:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS]
