@@ -13,7 +13,7 @@ In this project I'm developing a landing page for the Codeboost by Insany course
 
 <h1 align="center">
 <img src="https://img.shields.io/static/v1?label=Site&message=REACTJS&color=3498db&style=for-the-badge&logo="/>
-<img src="https://img.shields.io/static/v1?label=Status&message=finalizado&color=55efc4&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=Progess&color=F1C40F&style=for-the-badge&logo="/>
 </h1>
 
    <img src="https://github.com/wagstalos/cripto/blob/master/src/cripto.png" alt="">
