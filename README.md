@@ -12,7 +12,7 @@ project link}</a>
 In this project I'm developing a landing page for the Codeboost by Insany course}</p>
 
 <h1 align="center">
-<img src="https://img.shields.io/static/v1?label=Site&message=REACTJS&color=3498db&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Site&message=HTML/SASS/JS&color=3498db&style=for-the-badge&logo="/>
 <img src="https://img.shields.io/static/v1?label=Status&message=Progess&color=F1C40F&style=for-the-badge&logo="/>
 </h1>
 
