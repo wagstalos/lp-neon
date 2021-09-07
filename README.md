@@ -2,7 +2,7 @@
 <h1 align="center">Landing Page neon (By insany)</h1>
 
 <h2 align="center">
-    <a href="https://wpsgames.com.br/sites/cripto/">🔗 link  do projeto {
+    <a href="https://wagstalos.github.io/lp-neon/">🔗 link  do projeto {
 project link}</a>
 </h2>
 
