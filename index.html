@@ -10,6 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Projeto Landing Page Neon</title>
   </head>
@@ -182,17 +187,98 @@
             <div class="text">
               <h2>Neon Pejota</h2>
               <h3>Contas digitais PJ gratuitas para decolar seu negócio!</h3>
-              <p>As melhores contas para fazer pagamentos, compras e receber dos seus clientes.</p>
+              <p>
+                As melhores contas para fazer pagamentos, compras e receber dos
+                seus clientes.
+              </p>
               <div class="btns">
                 <button class="btn-primary">Sou MEI</button>
                 <button class="btn-primary">Sou ME</button>
               </div>
             </div>
-            <img src="img/card-front-pj.svg" class="image" alt="">
+            <img src="img/card-front-pj.svg" class="image" alt="" />
           </div>
-
         </div>
       </div>
     </section>
+
+    <section class="s-depoimentos">
+      <div class="container">
+        <div class="top">
+          <h2>
+            <span>Prático, fácil, moderno,</span> Você resolve tudo sem estresse
+            😊
+          </h2>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- Swiper -->
+        <div class="slide-depoimentos">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-depoimentos">
+                <div class="user">
+                  <strong>@wpsgames</strong>
+                  <img src="img/icon-twitter.svg" alt="twitter" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-depoimentos">
+                <div class="user">
+                  <strong>@wpsgames</strong>
+                  <img src="img/icon-twitter.svg" alt="twitter" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-depoimentos">
+                <div class="user">
+                  <strong>@wpsgames</strong>
+                  <img src="img/icon-twitter.svg" alt="twitter" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-depoimentos">
+                <div class="user">
+                  <strong>@wpsgames</strong>
+                  <img src="img/icon-twitter.svg" alt="twitter" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".slide-depoimentos", {
+        slidesPerView: 3.2,
+        spaceBetween: 32,
+        pagination: {
+          el: ".s-depoimentos .top .swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
