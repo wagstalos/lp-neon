@@ -1,12 +1,12 @@
 @mixin flex($direction, $align, $justifify) {
     display: flex;
-    flex-direction: $align;
+    flex-direction: $direction;
     align-items: $align;
     justify-content: $justifify;
 }
 
-@mixin  responsive($screenWidth) {
-    @media(max-width: $screenWidth){
-       @content; 
-    }    
+@mixin responsive($screenWidth) {
+    @media (max-width: $screenWidth) {
+        @content;
+    }
 }
