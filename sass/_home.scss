@@ -509,12 +509,12 @@
    @include responsive(480px) {
       position: relative;
       padding-top: 8.6rem;
-      &:after{
+      &:after {
          content: "";
          width: 100%;
          height: 214px;
-         
-         background: linear-gradient(180deg, #F7F7FA 0%, rgba(247, 247, 250, 0) 100%);
+
+         background: linear-gradient(180deg, #f7f7fa 0%, rgba(247, 247, 250, 0) 100%);
          transform: matrix(1, 0, 0, -1, 0, 0);
          position: absolute;
          bottom: 0;
@@ -522,12 +522,12 @@
          z-index: -1;
       }
 
-      .left-area{
+      .left-area {
          flex-direction: column-reverse;
-         .text{
+         .text {
             margin-bottom: 4rem;
          }
-         .ilustra-mockup{
+         .ilustra-mockup {
             height: 39.7rem;
             overflow: hidden;
          }
@@ -565,7 +565,6 @@
                font-size: 2rem;
             }
             .text {
-
                p {
                   max-width: 25.3rem;
                   margin-bottom: 3.4rem;
@@ -581,7 +580,6 @@
             }
          }
       }
-
    }
 }
 
@@ -599,7 +597,7 @@
       }
       .swiper-pagination {
          position: relative;
-         width: 50px;
+         width: 80px;
          .swiper-pagination-bullet {
             background: $brand-yellow;
             opacity: 0.3;
@@ -614,6 +612,38 @@
    }
    .slide-depoimentos {
       overflow: hidden;
+   }
+   @include responsive(991px) {
+      .top {
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 5.1rem;
+         h2 {
+            text-align: center;
+            margin-bottom: 5.1rem;
+         }
+      }
+   }
+   @include responsive(480px) {
+      padding-top: 7.6rem;
+      .container {
+         padding: 0;
+      }
+      .top {
+         margin-bottom: 3.4rem;
+         h2 {
+            font-size: 2.8rem;
+            font-weight: 600;
+            max-width: 28.5rem;
+            margin-bottom: 3.4rem;
+            span {
+               margin-bottom: 1.1rem;
+            }
+         }
+      }
+      .slide-depoimentos{
+         padding: 0 2rem;
+      }
    }
 }
 
