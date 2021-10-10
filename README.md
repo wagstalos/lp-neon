@@ -9,7 +9,7 @@ project link}</a>
 <h3 align="center">## Descrição do Projeto {Project description} ##</h3>
 
 
-<p align="center"> Neste projeto eu estou desnevolvendo uma landing page para o curso Codeboost by Insany <br> {
+<p align="center"> Neste projeto eu estou desevonlvendo uma landing page para o curso Codeboost by Insany <br> {
 In this project I'm developing a landing page for the Codeboost by Insany course}</p>
 
 <h1 align="center">
@@ -30,6 +30,15 @@ As seguintes tecnologias foram usadas na construção do projeto <br> {The follo
 ![Github JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 </div>
+
+
+#plugins JS utilizados
+
+Swiper slider
+https://swiperjs.com/
+
+animações
+ https://michalsnik.github.io/aos/
 
 
 <div  align="center" > 
