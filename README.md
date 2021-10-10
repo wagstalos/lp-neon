@@ -32,6 +32,15 @@ As seguintes tecnologias foram usadas na construção do projeto <br> {The follo
 </div>
 
 
+#plugins JS utilizados
+
+Swiper slider
+https://swiperjs.com/
+
+animações
+ https://michalsnik.github.io/aos/
+
+
 <div  align="center" > 
     Feito com ❤️ por Wagner Paulo 👋🏽
 Entre em contato!
