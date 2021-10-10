@@ -1,73 +1,72 @@
-footer{
-    background-color: $brand-blue ;
+footer {
+    background-color: $brand-blue;
     padding-top: 4.9rem;
-    .top{
+    .top {
         @include flex(row, center, space-between);
         border-bottom: 1px solid hsla(199, 98%, 64%, 0.2);
         padding-top: 4.8rem;
         padding-bottom: 5.7rem;
-        .share{
+        .share {
             display: flex;
             align-items: center;
-            span{
+            span {
                 font-size: 1.4rem;
                 line-height: 125%;
-                color: #FFF;
+                color: #fff;
                 opacity: 0.7;
             }
-            ul{
+            ul {
                 display: flex;
                 align-items: center;
                 margin-left: 3rem;
-                li{
-                    &:not(:first-child){
+                li {
+                    &:not(:first-child) {
                         margin-left: 3rem;
                     }
                 }
-               
             }
         }
     }
-    .main{
+    .main {
         @include flex(row, flex-start, space-between);
         padding-top: 5.7rem;
         padding-bottom: 6.2rem;
         border-bottom: 1px solid hsla(199, 98%, 64%, 0.2);
         margin-bottom: 3.9rem;
 
-        nav{
+        nav {
             @include flex(row, flex-start, space-between);
             width: 100%;
             max-width: 86rem;
-            .item{
-                strong{
-                    font-family: 'Poppins', sans-serif;
+            .item {
+                strong {
+                    font-family: "Poppins", sans-serif;
                     font-weight: 600;
                     font-size: 1.6rem;
                     line-height: 125%;
-                    color: #FFF;
+                    color: #fff;
                     display: inline-block;
                     margin-bottom: 2.5rem;
                 }
-                ul{
-                    li{
-                        &:not(:last-child){
+                ul {
+                    li {
+                        &:not(:last-child) {
                             margin-bottom: 2.9rem;
                         }
-                        a{
+                        a {
                             font-size: 1.4rem;
-                            line-height: 1.7rem;  
-                            color: #FFF;
-                            opacity: .7;
+                            line-height: 1.7rem;
+                            color: #fff;
+                            opacity: 0.7;
                         }
                     }
                 }
             }
         }
-        .btns{
+        .btns {
             width: 100%;
             max-width: 28rem;
-            button{
+            button {
                 width: 100%;
                 height: 7.6rem;
                 background-color: hsla(199, 100%, 47%, 0.23);
@@ -75,12 +74,12 @@ footer{
                 display: flex;
                 align-items: center;
                 padding-left: 2.5rem;
-                &:not(:last-child){
+                &:not(:last-child) {
                     margin-bottom: 2.4rem;
                 }
-                .info{
+                .info {
                     margin-left: 2.4rem;
-                    strong{
+                    strong {
                         display: block;
                         text-align: left;
                         font-weight: bold;
@@ -88,33 +87,127 @@ footer{
                         line-height: 150%;
                         color: #fff;
                     }
-                    span{
+                    span {
                         display: block;
                         font-size: 1.4rem;
                         line-height: 150%;
                         color: #fff;
                     }
-
                 }
             }
         }
     }
-    .msg{
+    .msg {
         display: flex;
         align-items: flex-start;
         border-bottom: 4px solid $brand-yellow;
         padding-bottom: 3.4rem;
-        .icon{
+        .icon {
             font-size: 1.8rem;
         }
-        p{
+        p {
             width: 100%;
             max-width: 66rem;
             margin-left: 2.5rem;
             font-size: 1.4rem;
             line-height: 150%;
-            color: #FFF;
+            color: #fff;
             opacity: 0.8;
+        }
+    }
+    @include responsive(1050px) {
+        .main {
+            nav {
+                max-width: 76rem;
+            }
+        }
+    }
+    @include responsive(991px) {
+        .main {
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-bottom: 3.6rem;
+            nav {
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                .item {
+                    width: 33%;
+                    margin-bottom: 5rem;
+                }
+            }
+            .btns {
+                position: absolute;
+                bottom: 140px;
+                right: 0;
+            }
+        }
+        .msg {
+            flex-direction: column;
+            align-items: center;
+            p {
+                margin-left: 0;
+                text-align: center;
+                margin-top: 1rem;
+            }
+        }
+    }
+    @include responsive(600px) {
+        .main {
+            margin-bottom: 3rem;
+            .btns {
+                max-width: 25rem;
+                button {
+                    img {
+                        display: none;
+                    }
+                    .info {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    @include responsive(480px) {
+        .top {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 4.3rem;
+            margin-bottom: 5.2rem;
+            .share{
+                flex-direction: column;
+                margin-top: 3.2rem;
+                ul{
+                    margin-left: 0;
+                    margin-top: 2rem;
+                }
+            }
+        }
+        .main {
+            nav {
+                .item {
+                    width: 50%;
+                    margin-bottom: 5.3rem;
+                }
+            }
+            .btns {
+                bottom: 0;
+                position: relative;
+                max-width: 100%;
+                button {
+                    padding-left: 0;
+                    justify-content: center;
+                    .info {
+                        strong,
+                        span {
+                            display: block;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
         }
     }
 }
