@@ -18,7 +18,7 @@ In this project I'm developing a landing page for the Codeboost by Insany course
 </h1>
 
 <div  align="center" >
-       <img src="https://wpsgames.com.br/img/screenshot-tractian.jpgg" alt="desafio">
+       <img src="" alt="desafio">
 </div>
 
 <div  align="center" > 
